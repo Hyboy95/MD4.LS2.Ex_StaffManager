@@ -51,7 +51,7 @@
           Add New Staff
         </div>
         <div class="card-body">
-          <form method="post" action="/update?page=<%= pageCurrent %>&id=<%= staff.id %>" enctype="multipart/form-data">
+          <form method="post" action="/update?page=<%= pageCurrent %>&limit=<%= limit %>&id=<%= staff.id %>" enctype="multipart/form-data">
             <div class="form-group">
               <label class="mb-2">Name</label>
               <input type="text" class="form-control" name="name"
